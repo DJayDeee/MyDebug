@@ -15,12 +15,6 @@
 #define	DEFAULT_LED_PIN		2
 #define	DEFAULT_BAUDRATE	74880
 
-typedef enum wifistate {
-	DISCONNECT,
-	CONNECT,
-	UNDEFINED,
-};
-
 class mydebug {
   public:
 	mydebug(const int br = DEFAULT_BAUDRATE, const int pin = DEFAULT_LED_PIN);
@@ -37,7 +31,7 @@ class mydebug {
   private:
 	Ticker	blynker;
 	int		baudrate;
-	int 	last_wifistate = UNDEFINED;
+	int 	last_wifistate;
 };
 
 #endif // _MYDEBUG_H_
