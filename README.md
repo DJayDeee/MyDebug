@@ -13,10 +13,10 @@ This library configure the serial port and one led for debuging.  It also allow 
 
 ### Functions
 * mydebug(const int br, const int pin) instanciate class and set BAUDRATE and LED_PIN.
-	* Init()		    Begin the serial connection and 0.6 second led blink.
-	* led_OFF()		  Turn led off.
+  * Init()		    Begin the serial connection and 0.6 second led blink.
+  * led_OFF()		  Turn led off.
   * led_ON()		  Turn led on.
-	* led_Toggle()	Toggle led state.
+  * led_Toggle()	Toggle led state.
   * setBlynkRate(seconds) Blink the led for selected time.
   * handleWifiBlynk()     Called during loop() to blink led slowly (1 second) if wifi isn't connected and OFF when connected.
 
