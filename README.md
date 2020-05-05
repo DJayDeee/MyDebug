@@ -22,4 +22,4 @@ This library configure the serial port and one led for debuging.  It also allow 
 
 ### License and credits
 - [Arduino for ESP8266](https://github.com/esp8266/Arduino)
-- [Ticker by Ivan Grokhtokov]
+- Ticker by Ivan Grokhtokov
